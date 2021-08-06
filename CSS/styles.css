@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("CSS/all.min.css");
+/*----Global----*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+html {
+    font-family: 'proxima nova', 'sans-serif';
+}
+body {
+    width: 100%;
+    background-image: url(pic.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:rebeccapurple;
+    font-size: 60px;
+    align-items: initial;
+    text-shadow: 1px 1px blueviolet;
+}
+p {
+    color: violet;
+    font-size: 30px;
+    margin-top: 5%;
+    text-shadow: 1px 1px blueviolet;
+}
+.menu {
+    list-style: none;
+}
+li {
+    color: white;
+    font-size: 20px;
+}
+
+/*---nav---*/
+.navigation-bar {
+    background-color: rgba(235, 222, 238, 1);
+    width: 100%;
+    position: fixed;
+    font-family: 'Ubuntu', 'sans-serif';
+    padding: 0;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: right;
+    height: 30%;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: purple;
+}
+  
+.active {
+    background-color: #f8b195;
+    clear: both;
+ }
+.logo {
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+
+ /*header*/
+header {
+     width: 100%;
+     text-align: center;
+     margin: 200px auto 20% auto;
+}
+header a {
+     color:turquoise
+}
+ h1 {
+     text-align: center;
+     padding: 0%;
+     margin: 0%;
+     text-shadow: grey;
+ }
+ /*project*/
+ .project {
+     text-align: center;
+     width: 100%;
+ }
+ .project a img {
+     margin: 1%;
+     width: 60%;
+     height: 40%;
+ }
+
+ .aboutme {
+     text-align: center;
+     margin: 100px 0 200px 0;
+ }
+ .aboutme h1 {
+     color: rebeccapurple;
+     font: 150px;
+     text-align: center;
+     left: 50%;
+     text-shadow: grey;
+     border-color: indigo;
+     border-radius: 50%;
+ }
+ .about {
+    float: right;
+    width: 100%;
+    margin-top: 150px;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px blueviolet;
+}
+.about a img {
+    margin-top: 5%;
+    width: 20%;
+    height: 20%;
+    border-radius:50%;
+}
+ /*contact*/
+ .contact {
+     width: 100%;
+     text-align: center;
+     color:rebeccapurple;
+ }
+ .contact p{
+     margin-bottom: 10%;
+ }
+ .contact2 {
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+    color:rebeccapurple;
+}
+ footer {
+    background-color: rgba(235, 222, 238, 1);
+    width: 100%;
+    font-family: 'Ubuntu', 'sans-serif';
+    padding: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    image: url(fab fa-linkedin-in);
+    height: 10%;
+
+ }
+.media {
+   text-align: center;
+}
